@@ -1,0 +1,35 @@
+first_dir = {
+    "上海": {
+        "黄浦区": {"黄圃镇","这个镇","那个镇"},
+        "闵行区": {"小镇1","小镇2","小镇3"}
+    },
+   "北京": {
+        "朝阳区": { "黄圃镇","青圃镇","闵行镇" },
+        "海淀区": { "海淀镇","朝阳镇","丰台镇"}
+    },
+    "广州": {
+        "番禺区": {"黄圃镇","大福镇","小康镇" },
+        "天河区": { "海淀镇","朝阳镇","丰台镇"},
+    },
+}
+
+
+
+
+father = []
+father.append(first_dir)
+print(father)
+
+
+while True :
+    for key in first_dir :
+        print(key)
+    choss = input(">>>:").strip()
+    if choss == 'b':
+        if len(father)== 0: break
+        first_dir = father[-1]
+        father.pop()
+    if len(choss) == 0 or choss not in first_dir :
+        continue
+    father.append(first_dir)
+    first_dir = first_dir[choss]

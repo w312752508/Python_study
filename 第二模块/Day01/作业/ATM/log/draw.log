@@ -1,0 +1,4 @@
+2017-07-24 18:41:19,129 INFO draw.py draw_log 17 开始提现操作。
+2017-07-24 18:41:19,129 ERROR draw.py draw_log 38 余额不足，无法提现。
+2017-07-24 18:41:23,923 INFO draw.py draw_log 17 开始提现操作。
+2017-07-24 18:41:23,925 INFO draw.py draw_log 22 退出提现服务。

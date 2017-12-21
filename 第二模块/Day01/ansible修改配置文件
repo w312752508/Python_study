@@ -1,0 +1,10 @@
+- name: user_add
+  hosts: ip_list
+  remote_user: manager
+  sudo: yes
+  gather_facts: false
+- name: root_login
+  lineinfile:
+     dest: /etc/ssh/sshd_config
+     regexp: 'PermitRootLogin'
+     line: 'PermitRootLogin yes'

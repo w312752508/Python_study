@@ -1,0 +1,19 @@
+age = 56
+count = 0
+for count in range(3) :
+    num = int(input("\ninput age:"))
+    if num == int(age):
+        print("You are right! very good!")
+        break
+    elif num < int(age):
+        print("Too young,go on!")
+    elif num > int(age):
+        print("Too old,go on!")
+    count += 1
+    if count == 3 :
+        countine_conf =  input("do you want countine? Y/N").lower()
+        if countine_conf != "n" :
+            count = 0
+
+#else:
+ #   print("you have tried too many times,Bye!")

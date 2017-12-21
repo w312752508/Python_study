@@ -1,0 +1,39 @@
+first_dir = ["上海","北京","广州"]
+second_dir = {
+    "上海": {
+        "黄浦区": ["黄圃镇","这个镇","那个镇"],
+        "闵行区": ["小镇1","小镇2","小镇3"]
+    },
+   "北京": {
+        "朝阳区": [ "黄圃镇","青圃镇","闵行镇" ],
+        "海淀区": [ "海淀镇","朝阳镇","丰台镇"]
+    },
+    "广州": {
+        "番禺区": [ "黄圃镇","大福镇","小康镇" ],
+        "天河区": [ "海淀镇","朝阳镇","丰台镇"],
+    },
+}
+
+while True :
+    for ct in first_dir:
+        print(ct, end=' ')
+    city_name = str(input("\n请输入城市名，输入'q'退出程序："))
+    if city_name == "q" :
+        break
+    if city_name in first_dir :
+       for k in second_dir.keys() :
+           #if city_name == k:
+           for p in second_dir[city_name]:
+               print(p, end=' ')
+           while True:
+                area_name = str(input("\n请输入区域名，输入'b'返回重新选择城市："))
+                if area_name.lower() == 'b' :
+                    break
+                elif area_name in second_dir[city_name]:
+                    for t in second_dir[city_name][area_name]:
+                        print(t, end=' ')
+                else :
+                    print("输入的区域没找到，请重新选择区域。")
+
+    else:
+        print("请输入正确的城市名。\n")

@@ -1,0 +1,6 @@
+2017-07-24 18:41:54,368 INFO user_add.py useradd_log 23 开始添加新用户。
+2017-07-24 18:41:54,369 ERROR user_add.py useradd_log 26 新用户名已存在。
+2017-07-24 18:41:59,386 INFO user_add.py useradd_log 23 开始添加新用户。
+2017-07-24 18:42:10,039 INFO user_add.py useradd_log 41 添加新用户操作成功。
+2017-07-24 18:42:15,651 INFO user_add.py useradd_log 23 开始添加新用户。
+2017-07-24 18:42:15,651 INFO user_add.py useradd_log 29 退出添加用户服务。

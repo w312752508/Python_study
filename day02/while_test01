@@ -1,0 +1,10 @@
+age = 56
+for i in range(3) :
+    num = int(input("\ninput age:"))
+    if num == int(age):
+        print("You are right! very good!")
+        break
+    elif num < int(age):
+        print("Too young,go on!")
+    elif num > int(age):
+        print("Too old,go on!")

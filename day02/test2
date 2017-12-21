@@ -1,0 +1,13 @@
+#格式化输出
+name = input("name:")
+age = int(input("age:"))
+salary = int(input("salary:"))
+inf = '''
+--------inf for {_name}--------
+name:{_name}
+age:{_age}
+salary:{_salary}
+'''.format(_name = name,
+          _age = age,
+          _salary = salary)
+print(inf)

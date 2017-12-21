@@ -1,0 +1,9 @@
+2017-07-24 18:40:56,058 INFO auth.py auth_log 45 用户开始认证登陆。
+2017-07-24 18:41:04,512 INFO auth.py auth_log 66 用户错误登陆1次。
+2017-07-24 18:41:07,942 INFO auth.py auth_log 61 zhh用户认证成功。
+2017-07-24 18:41:39,037 INFO auth.py auth_log 45 用户开始认证登陆。
+2017-07-24 18:41:41,245 INFO auth.py auth_log 72 用户名不存在。
+2017-07-24 18:41:44,953 INFO auth.py auth_log 66 用户错误登陆2次。
+2017-07-24 18:41:48,841 INFO auth.py auth_log 61 manager用户认证成功。
+2017-07-24 20:16:11,047 INFO auth.py auth_log 45 用户开始认证登陆。
+2017-07-24 20:16:15,123 INFO auth.py auth_log 61 manager用户认证成功。

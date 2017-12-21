@@ -1,0 +1,22 @@
+
+- name: user_add
+  hosts: ip_list
+  remote_user: manager
+  sudo: yes
+  gather_facts: false
+  vars:
+    users: "superman"
+    passwd: "QAZ@abc123"
+  tasks:
+  - name: create user named superman
+    user: name={{ users }}
+    - name: set password
+    shell: echo {{ passwd }} | passwd --stdin {{ users }}
+  - name: add_sudo
+    lineinfile:
+         dest: /etc/ssh/sshd_config
+         regexp: 'PermitRootLogin'
+         line: 'PermitRootLogin yes'
+
+或者直接一条命令：
+ansible all -i hosts2 -m raw -a "useradd super;echo QAZ@abc123 | passwd --stdin super;echo 'super ALL=(ALL) NOPASSWD: ALL' >>/etc/sudoers" -u manager -kb
