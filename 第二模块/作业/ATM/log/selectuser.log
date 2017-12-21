@@ -1,0 +1,8 @@
+2017-07-24 18:42:20,848 INFO user_select.py selectuser_log 23 开始查询用户。
+2017-07-24 18:42:20,848 INFO user_select.py selectuser_log 26 查询用户操作成功。
+2017-07-24 18:42:22,812 INFO user_select.py selectuser_log 23 开始查询用户。
+2017-07-24 18:42:22,812 INFO user_select.py selectuser_log 26 查询用户操作成功。
+2017-07-24 18:42:26,730 INFO user_select.py selectuser_log 23 开始查询用户。
+2017-07-24 18:42:26,730 ERROR user_select.py selectuser_log 37 用户名不存在。
+2017-07-24 18:42:28,634 INFO user_select.py selectuser_log 23 开始查询用户。
+2017-07-24 18:42:28,634 INFO user_select.py selectuser_log 29 退出查询服务。

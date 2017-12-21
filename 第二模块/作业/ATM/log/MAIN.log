@@ -1,0 +1,10 @@
+2017-07-24 18:41:10,438 INFO main.py MAIN_log 32 选择购物服务。
+2017-07-24 18:41:14,936 INFO main.py MAIN_log 35 选择提现服务。
+2017-07-24 18:41:25,895 INFO main.py MAIN_log 38 选择转账服务。
+2017-07-24 18:41:50,842 INFO main.py MAIN_log 58 管理员选择添加用户功能。
+2017-07-24 18:42:18,363 INFO main.py MAIN_log 61 管理员选择用户额度查询功能。
+2017-07-24 18:42:30,634 INFO main.py MAIN_log 64 管理员选择冻结用户功能。
+2017-07-24 18:42:49,867 INFO main.py MAIN_log 67 管理员退出。
+2017-07-24 20:16:19,060 INFO main.py MAIN_log 67 管理员退出。
+2017-08-15 10:37:56,279 INFO main.py MAIN_log 32 选择购物服务。
+2017-08-15 10:38:03,656 INFO main.py MAIN_log 44 用户退出服务。

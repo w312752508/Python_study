@@ -1,0 +1,11 @@
+2017-08-18 19:30:46,804 INFO auth_who.py auth_log 47 用户开始认证登陆。
+2017-08-18 19:35:09,026 INFO auth_who.py auth_log 63 alex用户认证成功。
+2017-08-18 19:38:03,187 INFO auth_who.py auth_log 47 用户开始认证登陆。
+2017-08-18 19:38:05,420 INFO auth_who.py auth_log 74 用户名不存在。
+2017-08-18 19:38:11,618 INFO auth_who.py auth_log 63 manager用户认证成功。
+2017-09-03 16:01:00,129 INFO auth_who.py auth_log 47 用户开始认证登陆。
+2017-09-03 16:01:01,934 INFO auth_who.py auth_log 74 用户名不存在。
+2017-09-03 16:01:03,614 INFO auth_who.py auth_log 74 用户名不存在。
+2017-09-03 16:01:09,645 INFO auth_who.py auth_log 68 用户错误登陆3次。
+2017-09-03 16:01:40,798 INFO auth_who.py auth_log 68 用户错误登陆4次。
+2017-09-03 16:01:40,798 INFO auth_who.py auth_log 79 尝试登陆次数太多，禁止登陆。
