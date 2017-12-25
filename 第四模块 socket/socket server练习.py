@@ -8,7 +8,7 @@ class MyTcpHandler(socketserver.BaseRequestHandler):
             print("处理完毕，发送完成！")
 
 if __name__ == "__main__":
-    host,port = "0.0.0.0",20000
+    host,port = "0.0.0.0",10000
     server = socketserver.ThreadingTCPServer((host,port),MyTcpHandler)
     print("接收数据中。。。。")
     server.serve_forever()
