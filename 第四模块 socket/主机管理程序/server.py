@@ -1,7 +1,7 @@
-import threading,socket,queue
-semaphore = threading.BoundedSemaphore(5) #限制最大线程数
-q = queue.Queue(maxsize=100) #接收客户端信息
+import threading,socket,queue,os
+semaphore = threading.BoundedSemaphore(20)
 lock = threading.Lock()
+q = queue.Queue()
 client_list = [["localhost",20000],
                ["localhost",20000],
                ]
@@ -27,16 +27,11 @@ def run(cmd,addr,port):
     socket_req(cmd,addr,port)
     semaphore.release()
     lock.release()
-
-def nwehost_add():
-    server = socket.socket()
-    server.bind(("localhost", 10000))
-    server.listen()
-    print("服务端启动，接收信息中")
-    while True:
-        conn, addr = server.accept()
-
 def _cmd():
+    print("主机总数：%s" % len(client_list))
+    for i in client_list:
+        print("Host_IP:%s Prot:%s" % (i[0], i[1]))
+
     while True:
         cmd = input(">:")
         if len(cmd) == 0:
@@ -53,5 +48,4 @@ def _cmd():
                 print(q.get())
 
 if __name__ == "__main__":
-
     _cmd()
