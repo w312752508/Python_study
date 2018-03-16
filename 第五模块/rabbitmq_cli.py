@@ -10,5 +10,6 @@ def callback(ch,method,pro,body):
 
 channel.basic_consume(callback,
                          queue="test2",
-                         no_ack=True)
+                         no_ack=False)
 channel.start_consuming()
+channel.close()
