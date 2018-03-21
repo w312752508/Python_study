@@ -27,7 +27,8 @@ row = [1 ,2, 3, 4, 5]
 # ws_sheet.append(row)
 #添加多行信息
 rows = [['Number', 'data1', 'data2'],[2, 40, 30],[3, 40, 25],[4, 50, 30],[5, 30, 10],[6, 25, 5]]
-ws_sheet.append(rows)
+for i in rows:
+    ws_sheet.append(i)
 
 
 file_name = 'new_test.xlsx'
