@@ -3,7 +3,7 @@ from openpyxl import load_workbook
 wb= load_workbook("d:\\excel_test\\user_list.xlsx")
 wb_sheet1 =wb["堡垒机"]
 wb_sheet2 =wb["跳板机"]
-with open("001.txt","r") as fs :
+with open("user_list.txt","r") as fs :
     for i in fs :
         num_list1 =[]
         num_list2 =[]
