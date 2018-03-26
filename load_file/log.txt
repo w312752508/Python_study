@@ -1,0 +1,29 @@
+ 1000  ansible-playbook -i hosts site.yml
+ 1001  ssh 10.251.3.226
+ 1002  ssh 10.251.3.226 14816
+ 1003  ssh 10.251.3.226 -p14816
+ 1004  cat /proc/version
+ 1005  cat /etc/yum.conf
+ 1006  ssh 10.251.3.226 -p14816
+ 1007  cat /etc/yum.repos.d/CentOS-Base.repo
+ 1008  ssh 10.251.3.226 -p14816
+ 1009  cat /etc/yum.repos.d/CentOS-Base.repo
+ 1010  ssh 10.251.3.226 -p14816
+ 1011  ifconfig
+ 1012  ssh 10.253.70.90 -p14816
+ 1013  ssh 10.251.3.226 -p14816
+ 1014  ssh 10.253.70.90 -p14816
+ 1015  ifconfig
+ 1016  ssh 10.253.70.90 -p14816
+ 1017  uname -a
+ 1018  uname -r
+ 1019  ifconfig
+ 1020  ssh 10.251.3.130 -p14816
+ 1021  uname -a
+ 1022  ssh 10.251.6.42 -p14816
+ 1023  ssh 10.251.2.2
+ 1024  ssh 10.251.2.1
+ 1025  ssh 10.251.2.3
+ 1026  ping 10.251.6.96
+ 1027  telnet 10.251.6.96 22
+ 1028  history
