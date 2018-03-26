@@ -1,10 +1,9 @@
 import redis
 
-
 class RedisHelper:
 
     def __init__(self):
-        self.__conn = redis.Redis(host='127.0.0.1')
+        self.__conn = redis.Redis(host='10.226.143.9')
         self.chan_sub = 'fm104.5'
         self.chan_pub = 'fm104.5'
 
