@@ -1,0 +1,5 @@
+1\ 14:13:51 10.249.96.85(via UDP: [10.249.96.85]:51061->[10.253.71.65]:162) TRAP, SNMP v1, community public
+2\ 14:17:51 10.249.96.85(via UDPerror: [10.249.96.85]:51062->[10.253.71.65]:162) TRAP, SNMP v1, community public
+3\ Deppon_SS7400_1_1_B6 14:17:51 10.249.96.85(via UDP: [10.249.96.85]:51063->[10.253.71.65]:162) TRAP110, SNMP v1, community public
+4\14:18:51 10.249.96.85(via UDPerror: [10.249.96.85]:51064->[10.253.71.65]:162) TRAP, SNMP v1, community public
+5\ Deppon_SS7400_1_1_B6 14:19:52 10.249.96.85(via UDPok: [10.249.96.85]:51065->[10.253.71.65]:162) TRAP, SNMP v1, community public
