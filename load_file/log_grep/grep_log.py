@@ -4,6 +4,7 @@ import os
 key_list = []
 with open("key_list","r") as f_key:
     for k in f_key:
+        k = k.strip("\n")
         a = k.split(",")
         key_list = key_list + a
     while True:
